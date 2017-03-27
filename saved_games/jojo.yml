@@ -1,0 +1,1279 @@
+--- !ruby/object:Game_Data
+sessions_arr:
+- !ruby/object:Session
+  board: !ruby/object:Board
+    board:
+    - - 
+      - a
+      - b
+      - c
+      - d
+      - e
+      - f
+      - g
+      - h
+      - 
+    - - 1
+      - !ruby/object:Square
+        location: &1
+        - 1
+        - 1
+        color: "■"
+        chess_piece: &2 !ruby/object:Rook
+          coat: "♜"
+          color: black
+          location:
+          - 1
+          - 1
+          board: &3 !ruby/object:Board
+            board:
+            - - 
+              - a
+              - b
+              - c
+              - d
+              - e
+              - f
+              - g
+              - h
+              - 
+            - - 1
+              - !ruby/object:Square
+                location: *1
+                color: "■"
+                chess_piece: *2
+              - !ruby/object:Square
+                location: &5
+                - 1
+                - 2
+                color: "□"
+                chess_piece: &6 !ruby/object:Knight
+                  coat: "♞"
+                  color: black
+                  location:
+                  - 1
+                  - 2
+                  board: *3
+              - !ruby/object:Square
+                location: &7
+                - 1
+                - 3
+                color: "■"
+                chess_piece: &8 !ruby/object:Bishop
+                  coat: "♝"
+                  color: black
+                  location:
+                  - 1
+                  - 3
+                  board: *3
+              - !ruby/object:Square
+                location: &9
+                - 1
+                - 4
+                color: "□"
+                chess_piece: &10 !ruby/object:Queen
+                  coat: "♛"
+                  color: black
+                  location:
+                  - 1
+                  - 4
+                  board: *3
+              - !ruby/object:Square
+                location: &11
+                - 1
+                - 5
+                color: "■"
+                chess_piece: &12 !ruby/object:King
+                  coat: "♚"
+                  color: black
+                  location:
+                  - 1
+                  - 5
+                  board: *3
+              - !ruby/object:Square
+                location: &13
+                - 1
+                - 6
+                color: "□"
+                chess_piece: &14 !ruby/object:Bishop
+                  coat: "♝"
+                  color: black
+                  location:
+                  - 1
+                  - 6
+                  board: *3
+              - !ruby/object:Square
+                location: &15
+                - 1
+                - 7
+                color: "■"
+                chess_piece: &16 !ruby/object:Knight
+                  coat: "♞"
+                  color: black
+                  location:
+                  - 1
+                  - 7
+                  board: *3
+              - !ruby/object:Square
+                location: &17
+                - 1
+                - 8
+                color: "□"
+                chess_piece: &18 !ruby/object:Rook
+                  coat: "♜"
+                  color: black
+                  location:
+                  - 1
+                  - 8
+                  board: *3
+              - 1
+            - - 2
+              - !ruby/object:Square
+                location: &19
+                - 2
+                - 1
+                color: "□"
+                chess_piece: &20 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 1
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &21
+                - 2
+                - 2
+                color: "■"
+                chess_piece: &22 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 2
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &23
+                - 2
+                - 3
+                color: "□"
+                chess_piece: &24 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 3
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &25
+                - 2
+                - 4
+                color: "■"
+                chess_piece: 
+              - !ruby/object:Square
+                location: &26
+                - 2
+                - 5
+                color: "□"
+                chess_piece: &27 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 5
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &28
+                - 2
+                - 6
+                color: "■"
+                chess_piece: &29 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 6
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &30
+                - 2
+                - 7
+                color: "□"
+                chess_piece: &31 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 7
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &32
+                - 2
+                - 8
+                color: "■"
+                chess_piece: &33 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location:
+                  - 2
+                  - 8
+                  board: *3
+                  initial_move: true
+              - 2
+            - - 3
+              - !ruby/object:Square
+                location: &34
+                - 3
+                - 1
+                color: "■"
+              - !ruby/object:Square
+                location: &35
+                - 3
+                - 2
+                color: "□"
+              - !ruby/object:Square
+                location: &36
+                - 3
+                - 3
+                color: "■"
+              - !ruby/object:Square
+                location: &37
+                - 3
+                - 4
+                color: "□"
+              - !ruby/object:Square
+                location: &38
+                - 3
+                - 5
+                color: "■"
+              - !ruby/object:Square
+                location: &39
+                - 3
+                - 6
+                color: "□"
+              - !ruby/object:Square
+                location: &40
+                - 3
+                - 7
+                color: "■"
+              - !ruby/object:Square
+                location: &41
+                - 3
+                - 8
+                color: "□"
+              - 3
+            - - 4
+              - !ruby/object:Square
+                location: &42
+                - 4
+                - 1
+                color: "□"
+              - !ruby/object:Square
+                location: &43
+                - 4
+                - 2
+                color: "■"
+              - !ruby/object:Square
+                location: &44
+                - 4
+                - 3
+                color: "□"
+              - !ruby/object:Square
+                location: &45
+                - 4
+                - 4
+                color: "■"
+                chess_piece: &46 !ruby/object:Pawn
+                  coat: "♟"
+                  color: black
+                  location: &99
+                  - 4
+                  - 4
+                  board: *3
+                  initial_move: false
+              - !ruby/object:Square
+                location: &47
+                - 4
+                - 5
+                color: "□"
+              - !ruby/object:Square
+                location: &48
+                - 4
+                - 6
+                color: "■"
+              - !ruby/object:Square
+                location: &49
+                - 4
+                - 7
+                color: "□"
+              - !ruby/object:Square
+                location: &50
+                - 4
+                - 8
+                color: "■"
+              - 4
+            - - 5
+              - !ruby/object:Square
+                location: &51
+                - 5
+                - 1
+                color: "■"
+              - !ruby/object:Square
+                location: &52
+                - 5
+                - 2
+                color: "□"
+              - !ruby/object:Square
+                location: &53
+                - 5
+                - 3
+                color: "■"
+              - !ruby/object:Square
+                location: &54
+                - 5
+                - 4
+                color: "□"
+              - !ruby/object:Square
+                location: &55
+                - 5
+                - 5
+                color: "■"
+              - !ruby/object:Square
+                location: &56
+                - 5
+                - 6
+                color: "□"
+              - !ruby/object:Square
+                location: &57
+                - 5
+                - 7
+                color: "■"
+              - !ruby/object:Square
+                location: &58
+                - 5
+                - 8
+                color: "□"
+              - 5
+            - - 6
+              - !ruby/object:Square
+                location: &59
+                - 6
+                - 1
+                color: "□"
+              - !ruby/object:Square
+                location: &60
+                - 6
+                - 2
+                color: "■"
+              - !ruby/object:Square
+                location: &61
+                - 6
+                - 3
+                color: "□"
+              - !ruby/object:Square
+                location: &62
+                - 6
+                - 4
+                color: "■"
+                chess_piece: &74 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location: &4
+                  - 6
+                  - 4
+                  board: *3
+                  initial_move: false
+              - !ruby/object:Square
+                location: &63
+                - 6
+                - 5
+                color: "□"
+              - !ruby/object:Square
+                location: &64
+                - 6
+                - 6
+                color: "■"
+              - !ruby/object:Square
+                location: &65
+                - 6
+                - 7
+                color: "□"
+              - !ruby/object:Square
+                location: &66
+                - 6
+                - 8
+                color: "■"
+              - 6
+            - - 7
+              - !ruby/object:Square
+                location: &67
+                - 7
+                - 1
+                color: "■"
+                chess_piece: &68 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 1
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &69
+                - 7
+                - 2
+                color: "□"
+                chess_piece: &70 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 2
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &71
+                - 7
+                - 3
+                color: "■"
+                chess_piece: &72 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 3
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &73
+                - 7
+                - 4
+                color: "□"
+                chess_piece: 
+              - !ruby/object:Square
+                location: &75
+                - 7
+                - 5
+                color: "■"
+                chess_piece: &76 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 5
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &77
+                - 7
+                - 6
+                color: "□"
+                chess_piece: &78 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 6
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &79
+                - 7
+                - 7
+                color: "■"
+                chess_piece: &80 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 7
+                  board: *3
+                  initial_move: true
+              - !ruby/object:Square
+                location: &81
+                - 7
+                - 8
+                color: "□"
+                chess_piece: &82 !ruby/object:Pawn
+                  coat: "♙"
+                  color: white
+                  location:
+                  - 7
+                  - 8
+                  board: *3
+                  initial_move: true
+              - 7
+            - - 8
+              - !ruby/object:Square
+                location: &83
+                - 8
+                - 1
+                color: "□"
+                chess_piece: &84 !ruby/object:Rook
+                  coat: "♖"
+                  color: white
+                  location:
+                  - 8
+                  - 1
+                  board: *3
+              - !ruby/object:Square
+                location: &85
+                - 8
+                - 2
+                color: "■"
+                chess_piece: &86 !ruby/object:Knight
+                  coat: "♘"
+                  color: white
+                  location:
+                  - 8
+                  - 2
+                  board: *3
+              - !ruby/object:Square
+                location: &87
+                - 8
+                - 3
+                color: "□"
+                chess_piece: &88 !ruby/object:Bishop
+                  coat: "♗"
+                  color: white
+                  location:
+                  - 8
+                  - 3
+                  board: *3
+              - !ruby/object:Square
+                location: &89
+                - 8
+                - 4
+                color: "■"
+                chess_piece: &90 !ruby/object:Queen
+                  coat: "♕"
+                  color: white
+                  location:
+                  - 8
+                  - 4
+                  board: *3
+              - !ruby/object:Square
+                location: &91
+                - 8
+                - 5
+                color: "□"
+                chess_piece: &92 !ruby/object:King
+                  coat: "♔"
+                  color: white
+                  location:
+                  - 8
+                  - 5
+                  board: *3
+              - !ruby/object:Square
+                location: &93
+                - 8
+                - 6
+                color: "■"
+                chess_piece: &94 !ruby/object:Bishop
+                  coat: "♗"
+                  color: white
+                  location:
+                  - 8
+                  - 6
+                  board: *3
+              - !ruby/object:Square
+                location: &95
+                - 8
+                - 7
+                color: "□"
+                chess_piece: &96 !ruby/object:Knight
+                  coat: "♘"
+                  color: white
+                  location:
+                  - 8
+                  - 7
+                  board: *3
+              - !ruby/object:Square
+                location: &97
+                - 8
+                - 8
+                color: "■"
+                chess_piece: &98 !ruby/object:Rook
+                  coat: "♖"
+                  color: white
+                  location:
+                  - 8
+                  - 8
+                  board: *3
+              - 8
+            - - 
+              - a
+              - b
+              - c
+              - d
+              - e
+              - f
+              - g
+              - h
+              - 
+            hash:
+              a: 1
+              b: 2
+              c: 3
+              d: 4
+              e: 5
+              f: 6
+              g: 7
+              h: 8
+            latest_move: *4
+      - !ruby/object:Square
+        location: *5
+        color: "□"
+        chess_piece: *6
+      - !ruby/object:Square
+        location: *7
+        color: "■"
+        chess_piece: *8
+      - !ruby/object:Square
+        location: *9
+        color: "□"
+        chess_piece: *10
+      - !ruby/object:Square
+        location: *11
+        color: "■"
+        chess_piece: *12
+      - !ruby/object:Square
+        location: *13
+        color: "□"
+        chess_piece: *14
+      - !ruby/object:Square
+        location: *15
+        color: "■"
+        chess_piece: *16
+      - !ruby/object:Square
+        location: *17
+        color: "□"
+        chess_piece: *18
+      - 1
+    - - 2
+      - !ruby/object:Square
+        location: *19
+        color: "□"
+        chess_piece: *20
+      - !ruby/object:Square
+        location: *21
+        color: "■"
+        chess_piece: *22
+      - !ruby/object:Square
+        location: *23
+        color: "□"
+        chess_piece: *24
+      - !ruby/object:Square
+        location: *25
+        color: "■"
+        chess_piece: 
+      - !ruby/object:Square
+        location: *26
+        color: "□"
+        chess_piece: *27
+      - !ruby/object:Square
+        location: *28
+        color: "■"
+        chess_piece: *29
+      - !ruby/object:Square
+        location: *30
+        color: "□"
+        chess_piece: *31
+      - !ruby/object:Square
+        location: *32
+        color: "■"
+        chess_piece: *33
+      - 2
+    - - 3
+      - !ruby/object:Square
+        location: *34
+        color: "■"
+      - !ruby/object:Square
+        location: *35
+        color: "□"
+      - !ruby/object:Square
+        location: *36
+        color: "■"
+      - !ruby/object:Square
+        location: *37
+        color: "□"
+      - !ruby/object:Square
+        location: *38
+        color: "■"
+      - !ruby/object:Square
+        location: *39
+        color: "□"
+      - !ruby/object:Square
+        location: *40
+        color: "■"
+      - !ruby/object:Square
+        location: *41
+        color: "□"
+      - 3
+    - - 4
+      - !ruby/object:Square
+        location: *42
+        color: "□"
+      - !ruby/object:Square
+        location: *43
+        color: "■"
+      - !ruby/object:Square
+        location: *44
+        color: "□"
+      - !ruby/object:Square
+        location: *45
+        color: "■"
+        chess_piece: *46
+      - !ruby/object:Square
+        location: *47
+        color: "□"
+      - !ruby/object:Square
+        location: *48
+        color: "■"
+      - !ruby/object:Square
+        location: *49
+        color: "□"
+      - !ruby/object:Square
+        location: *50
+        color: "■"
+      - 4
+    - - 5
+      - !ruby/object:Square
+        location: *51
+        color: "■"
+      - !ruby/object:Square
+        location: *52
+        color: "□"
+      - !ruby/object:Square
+        location: *53
+        color: "■"
+      - !ruby/object:Square
+        location: *54
+        color: "□"
+      - !ruby/object:Square
+        location: *55
+        color: "■"
+      - !ruby/object:Square
+        location: *56
+        color: "□"
+      - !ruby/object:Square
+        location: *57
+        color: "■"
+      - !ruby/object:Square
+        location: *58
+        color: "□"
+      - 5
+    - - 6
+      - !ruby/object:Square
+        location: *59
+        color: "□"
+      - !ruby/object:Square
+        location: *60
+        color: "■"
+      - !ruby/object:Square
+        location: *61
+        color: "□"
+      - !ruby/object:Square
+        location: *62
+        color: "■"
+      - !ruby/object:Square
+        location: *63
+        color: "□"
+      - !ruby/object:Square
+        location: *64
+        color: "■"
+      - !ruby/object:Square
+        location: *65
+        color: "□"
+      - !ruby/object:Square
+        location: *66
+        color: "■"
+      - 6
+    - - 7
+      - !ruby/object:Square
+        location: *67
+        color: "■"
+        chess_piece: *68
+      - !ruby/object:Square
+        location: *69
+        color: "□"
+        chess_piece: *70
+      - !ruby/object:Square
+        location: *71
+        color: "■"
+        chess_piece: *72
+      - !ruby/object:Square
+        location: *73
+        color: "□"
+        chess_piece: *74
+      - !ruby/object:Square
+        location: *75
+        color: "■"
+        chess_piece: *76
+      - !ruby/object:Square
+        location: *77
+        color: "□"
+        chess_piece: *78
+      - !ruby/object:Square
+        location: *79
+        color: "■"
+        chess_piece: *80
+      - !ruby/object:Square
+        location: *81
+        color: "□"
+        chess_piece: *82
+      - 7
+    - - 8
+      - !ruby/object:Square
+        location: *83
+        color: "□"
+        chess_piece: *84
+      - !ruby/object:Square
+        location: *85
+        color: "■"
+        chess_piece: *86
+      - !ruby/object:Square
+        location: *87
+        color: "□"
+        chess_piece: *88
+      - !ruby/object:Square
+        location: *89
+        color: "■"
+        chess_piece: *90
+      - !ruby/object:Square
+        location: *91
+        color: "□"
+        chess_piece: *92
+      - !ruby/object:Square
+        location: *93
+        color: "■"
+        chess_piece: *94
+      - !ruby/object:Square
+        location: *95
+        color: "□"
+        chess_piece: *96
+      - !ruby/object:Square
+        location: *97
+        color: "■"
+        chess_piece: *98
+      - 8
+    - - 
+      - a
+      - b
+      - c
+      - d
+      - e
+      - f
+      - g
+      - h
+      - 
+    hash:
+      a: 1
+      b: 2
+      c: 3
+      d: 4
+      e: 5
+      f: 6
+      g: 7
+      h: 8
+  player_name: jin
+  player_symbol: "●"
+  player_input: d2 d4
+- !ruby/object:Session
+  board: !ruby/object:Board
+    board:
+    - - 
+      - a
+      - b
+      - c
+      - d
+      - e
+      - f
+      - g
+      - h
+      - 
+    - - 1
+      - !ruby/object:Square
+        location: *1
+        color: "■"
+        chess_piece: *2
+      - !ruby/object:Square
+        location: *5
+        color: "□"
+        chess_piece: *6
+      - !ruby/object:Square
+        location: *7
+        color: "■"
+        chess_piece: *8
+      - !ruby/object:Square
+        location: *9
+        color: "□"
+        chess_piece: *10
+      - !ruby/object:Square
+        location: *11
+        color: "■"
+        chess_piece: *12
+      - !ruby/object:Square
+        location: *13
+        color: "□"
+        chess_piece: *14
+      - !ruby/object:Square
+        location: *15
+        color: "■"
+        chess_piece: *16
+      - !ruby/object:Square
+        location: *17
+        color: "□"
+        chess_piece: *18
+      - 1
+    - - 2
+      - !ruby/object:Square
+        location: *19
+        color: "□"
+        chess_piece: *20
+      - !ruby/object:Square
+        location: *21
+        color: "■"
+        chess_piece: *22
+      - !ruby/object:Square
+        location: *23
+        color: "□"
+        chess_piece: *24
+      - !ruby/object:Square
+        location: *25
+        color: "■"
+        chess_piece: 
+      - !ruby/object:Square
+        location: *26
+        color: "□"
+        chess_piece: *27
+      - !ruby/object:Square
+        location: *28
+        color: "■"
+        chess_piece: *29
+      - !ruby/object:Square
+        location: *30
+        color: "□"
+        chess_piece: *31
+      - !ruby/object:Square
+        location: *32
+        color: "■"
+        chess_piece: *33
+      - 2
+    - - 3
+      - !ruby/object:Square
+        location: *34
+        color: "■"
+      - !ruby/object:Square
+        location: *35
+        color: "□"
+      - !ruby/object:Square
+        location: *36
+        color: "■"
+      - !ruby/object:Square
+        location: *37
+        color: "□"
+      - !ruby/object:Square
+        location: *38
+        color: "■"
+      - !ruby/object:Square
+        location: *39
+        color: "□"
+      - !ruby/object:Square
+        location: *40
+        color: "■"
+      - !ruby/object:Square
+        location: *41
+        color: "□"
+      - 3
+    - - 4
+      - !ruby/object:Square
+        location: *42
+        color: "□"
+      - !ruby/object:Square
+        location: *43
+        color: "■"
+      - !ruby/object:Square
+        location: *44
+        color: "□"
+      - !ruby/object:Square
+        location: *45
+        color: "■"
+        chess_piece: *46
+      - !ruby/object:Square
+        location: *47
+        color: "□"
+      - !ruby/object:Square
+        location: *48
+        color: "■"
+      - !ruby/object:Square
+        location: *49
+        color: "□"
+      - !ruby/object:Square
+        location: *50
+        color: "■"
+      - 4
+    - - 5
+      - !ruby/object:Square
+        location: *51
+        color: "■"
+      - !ruby/object:Square
+        location: *52
+        color: "□"
+      - !ruby/object:Square
+        location: *53
+        color: "■"
+      - !ruby/object:Square
+        location: *54
+        color: "□"
+      - !ruby/object:Square
+        location: *55
+        color: "■"
+      - !ruby/object:Square
+        location: *56
+        color: "□"
+      - !ruby/object:Square
+        location: *57
+        color: "■"
+      - !ruby/object:Square
+        location: *58
+        color: "□"
+      - 5
+    - - 6
+      - !ruby/object:Square
+        location: *59
+        color: "□"
+      - !ruby/object:Square
+        location: *60
+        color: "■"
+      - !ruby/object:Square
+        location: *61
+        color: "□"
+      - !ruby/object:Square
+        location: *62
+        color: "■"
+        chess_piece: *74
+      - !ruby/object:Square
+        location: *63
+        color: "□"
+      - !ruby/object:Square
+        location: *64
+        color: "■"
+      - !ruby/object:Square
+        location: *65
+        color: "□"
+      - !ruby/object:Square
+        location: *66
+        color: "■"
+      - 6
+    - - 7
+      - !ruby/object:Square
+        location: *67
+        color: "■"
+        chess_piece: *68
+      - !ruby/object:Square
+        location: *69
+        color: "□"
+        chess_piece: *70
+      - !ruby/object:Square
+        location: *71
+        color: "■"
+        chess_piece: *72
+      - !ruby/object:Square
+        location: *73
+        color: "□"
+        chess_piece: 
+      - !ruby/object:Square
+        location: *75
+        color: "■"
+        chess_piece: *76
+      - !ruby/object:Square
+        location: *77
+        color: "□"
+        chess_piece: *78
+      - !ruby/object:Square
+        location: *79
+        color: "■"
+        chess_piece: *80
+      - !ruby/object:Square
+        location: *81
+        color: "□"
+        chess_piece: *82
+      - 7
+    - - 8
+      - !ruby/object:Square
+        location: *83
+        color: "□"
+        chess_piece: *84
+      - !ruby/object:Square
+        location: *85
+        color: "■"
+        chess_piece: *86
+      - !ruby/object:Square
+        location: *87
+        color: "□"
+        chess_piece: *88
+      - !ruby/object:Square
+        location: *89
+        color: "■"
+        chess_piece: *90
+      - !ruby/object:Square
+        location: *91
+        color: "□"
+        chess_piece: *92
+      - !ruby/object:Square
+        location: *93
+        color: "■"
+        chess_piece: *94
+      - !ruby/object:Square
+        location: *95
+        color: "□"
+        chess_piece: *96
+      - !ruby/object:Square
+        location: *97
+        color: "■"
+        chess_piece: *98
+      - 8
+    - - 
+      - a
+      - b
+      - c
+      - d
+      - e
+      - f
+      - g
+      - h
+      - 
+    hash:
+      a: 1
+      b: 2
+      c: 3
+      d: 4
+      e: 5
+      f: 6
+      g: 7
+      h: 8
+  player_name: suga
+  player_symbol: "○"
+  player_input: d7 d6
+last_board: *3
+last_player: &100 !ruby/object:Player1
+  name: jin
+  board: *3
+  symbol: "●"
+  chess_pieces:
+    ? - 1
+      - 1
+    : *2
+    ? - 1
+      - 8
+    : *18
+    ? - 1
+      - 2
+    : *6
+    ? - 1
+      - 7
+    : *16
+    ? - 1
+      - 3
+    : *8
+    ? - 1
+      - 6
+    : *14
+    ? - 1
+      - 4
+    : *10
+    ? - 1
+      - 5
+    : *12
+    ? - 2
+      - 1
+    : *20
+    ? - 2
+      - 2
+    : *22
+    ? - 2
+      - 3
+    : *24
+    ? - 2
+      - 5
+    : *27
+    ? - 2
+      - 6
+    : *29
+    ? - 2
+      - 7
+    : *31
+    ? - 2
+      - 8
+    : *33
+    *99: *46
+  king_location:
+  - 1
+  - 5
+  opponent: !ruby/object:Player2
+    name: suga
+    board: *3
+    symbol: "○"
+    chess_pieces:
+      ? - 8
+        - 1
+      : *84
+      ? - 8
+        - 8
+      : *98
+      ? - 8
+        - 2
+      : *86
+      ? - 8
+        - 7
+      : *96
+      ? - 8
+        - 3
+      : *88
+      ? - 8
+        - 6
+      : *94
+      ? - 8
+        - 4
+      : *90
+      ? - 8
+        - 5
+      : *92
+      ? - 7
+        - 1
+      : *68
+      ? - 7
+        - 2
+      : *70
+      ? - 7
+        - 3
+      : *72
+      ? - 7
+        - 5
+      : *76
+      ? - 7
+        - 6
+      : *78
+      ? - 7
+        - 7
+      : *80
+      ? - 7
+        - 8
+      : *82
+      *4: *74
+    king_location:
+    - 8
+    - 5
+    opponent: *100
+    threat_loc: 
+    in_check: false
+  threat_loc: 
+  in_check: false
+last_x: 0
