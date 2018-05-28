@@ -26,7 +26,6 @@ To start the game, you must run the program in terminal :
 ```
 $ ruby main.rb
 ```
-
 <p>Two players are needed to play. The program will ask users to enter 1 or 2 if they wish to start a new game(1) or continue game(2).To move a chess piece, player must find the column letter and row number of chess piece.<br/>Example:<br/>Let's say Jin wants to move his pawn at d2 to d4. He must type 'd2 d4' and then hit enter. The move is valid, therefore the next player can go.</p>
 <a href="http://imgur.com/oN6kyJZ"><img src="http://i.imgur.com/oN6kyJZ.png" title="source: imgur.com" /></a>
 <p>Otherwise, the player will be prompted for another move</p>
@@ -59,3 +58,6 @@ Pawn(c2) : moves forward 1 square at a time. May move diagonally 1 square, only 
 <p>If a pawn makes it to the very opposite end of the board(row1 or row8), it will be promoted. The program will prompt user to enter queen, rook, bishop, or knight. The pawn on the board is then replaced with the player's choice. </p>
 
 <p>For more information on chess visit <a href=https://en.wikipedia.org/wiki/Chess>wikipedia page</a></p>
+
+### Tips
+If you do not see the chess pieces as they appear in the pictures above, you may need to go to command prompt settings and change the font. On Windows, change the font to DejaVu Sans Mono.
