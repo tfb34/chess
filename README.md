@@ -1,10 +1,32 @@
-# chess
-<h3>Run game </h3>
-<p>Download project.<br/>Open terminal.<br/>Change the current working directory to the folder that contains 'chess'<br/>Run this line in terminal: </p>
+# command-line-chess
+A Ruby program to play chess on command line/terminal. Two-player game. 
 
-      ruby main.rb
-      
-<h3>How to Play</h3>
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine. 
+
+### Prerequisites
+To work with ruby programs you will need to install <a href="https://www.ruby-lang.org/en/documentation/installation/">Ruby</a>. 
+
+### Installing
+1. On GitHub, click on the <b>clone or download</b> button and copy the URL.
+2. Open your command prompt /terminal.
+3. Change your current working directory to the location you want to save your project in.
+4. Type git clone and paster the URL you copied earlier.
+
+```
+$ git clone https://github.com/tfb34/battleship.git
+```
+
+5. Press Enter. You should now have a copy of the project on your computer.
+
+## How to Play
+
+To start the game, you must run the program in terminal :
+
+```
+$ ruby main.rb
+```
+
 <p>Two players are needed to play. The program will ask users to enter 1 or 2 if they wish to start a new game(1) or continue game(2).To move a chess piece, player must find the column letter and row number of chess piece.<br/>Example:<br/>Let's say Jin wants to move his pawn at d2 to d4. He must type 'd2 d4' and then hit enter. The move is valid, therefore the next player can go.</p>
 <a href="http://imgur.com/oN6kyJZ"><img src="http://i.imgur.com/oN6kyJZ.png" title="source: imgur.com" /></a>
 <p>Otherwise, the player will be prompted for another move<br/>End of Game:</p>
@@ -34,5 +56,4 @@ Pawn(c2) : moves forward 1 square at a time. May move diagonally 1 square, only 
 <p>If a particular move exposes the king, or would put the king in check, then the program will prompt you for another move.</p>
 <h4>Promotion</h4>
 <p>If a pawn makes it to the very opposite end of the board(row1 or row8), it will be promoted. The program will prompt user to enter queen, rook, bishop, or knight. The pawn on the board is then replaced with the player's choice. </p>
-
 <p>For more information on chess visit <a href=https://en.wikipedia.org/wiki/Chess>wikipedia page</a></p>
