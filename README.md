@@ -59,5 +59,5 @@ Pawn(c2) : moves forward 1 square at a time. May move diagonally 1 square, only 
 
 <p>For more information on chess visit <a href=https://en.wikipedia.org/wiki/Chess>wikipedia page</a></p>
 
-### Tips
+## Tips
 If you do not see the chess pieces as they appear in the pictures above, you may need to go to command prompt settings and change the font. On Windows, change the font to DejaVu Sans Mono.
