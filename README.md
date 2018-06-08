@@ -1,5 +1,6 @@
 # command-line-chess
-A Ruby program to play chess on command line/terminal. Two-player game. 
+
+Chess is a Ruby program played on the command line. It's a two player game where players have the option to start a new game or continue a saved previous match.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine. 
