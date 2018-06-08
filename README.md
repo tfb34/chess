@@ -62,3 +62,8 @@ Pawn(c2) : moves forward 1 square at a time. May move diagonally 1 square, only 
 
 ## Tips
 If you do not see the chess pieces as they appear in the pictures above, you may need to go to command prompt settings and change the font. On Windows, change the font to DejaVu Sans Mono.
+
+## Built With
+
+* [Ruby](https://www.ruby-lang.org/en/) - The programming language used
+* [YAML](http://yaml.org/) - The data serialization language used to store saved games
